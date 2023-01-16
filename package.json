@@ -7,5 +7,25 @@
   },
   "dependencies": {
     "tslib": "^2.3.0"
-  }
+  },
+  "module": "fesm2015/jarvis-autocomplete.mjs",
+  "es2020": "fesm2020/jarvis-autocomplete.mjs",
+  "esm2020": "esm2020/jarvis-autocomplete.mjs",
+  "fesm2020": "fesm2020/jarvis-autocomplete.mjs",
+  "fesm2015": "fesm2015/jarvis-autocomplete.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/jarvis-autocomplete.mjs",
+      "es2020": "./fesm2020/jarvis-autocomplete.mjs",
+      "es2015": "./fesm2015/jarvis-autocomplete.mjs",
+      "node": "./fesm2015/jarvis-autocomplete.mjs",
+      "default": "./fesm2020/jarvis-autocomplete.mjs"
+    }
+  },
+  "sideEffects": false
 }
